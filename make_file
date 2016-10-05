@@ -1,0 +1,5 @@
+all:
+		gcc -g -o main.o bitmem.c main.c
+
+clean:
+		$(RM) fs
